@@ -17,10 +17,11 @@ h2 {
 }
 .image-container{
     max-width: 100%;
-    margin:0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
     max-width: 100%;
-    height: auto;
-    display: block;
+    height: auto;  
 }
