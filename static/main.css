@@ -32,6 +32,9 @@ h2 {
     border-bottom: 1px solid #57b1dc;
 }
 
+.centered-text{
+   text-align: center;
+}
 .socials{
 
     display:flex;
@@ -48,6 +51,6 @@ h2 {
 .socials svg{
 
     display: block;
-    width: 80px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
