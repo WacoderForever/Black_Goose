@@ -31,3 +31,23 @@ h2 {
 
     border-bottom: 1px solid #57b1dc;
 }
+
+.socials{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.socials > div{
+
+    margin: 0 5px;
+}
+
+.socials svg{
+
+    display: block;
+    width: 80px;
+    height: 70px;
+}
