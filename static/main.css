@@ -25,3 +25,8 @@ h2 {
     max-width: 100%;
     height: auto;  
 }
+
+.loc{
+
+    border-bottom: 1px solid #57b1dc;
+}
