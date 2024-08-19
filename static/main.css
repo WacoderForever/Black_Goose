@@ -3,7 +3,12 @@ body {
     margin: 0 10%;
     font-family: sans-serif;
 }
-
+header{
+    text-align: center;
+    font-family: serif;
+    font-weight: 900;
+    margin-top: 30px;
+}
 h1 {
     text-align: center;
     font-family: serif;
