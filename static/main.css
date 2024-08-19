@@ -1,10 +1,10 @@
-
-body{
-    background-color: #faf2e4;
+body {
+    background-color: #faf2e4; 
     margin: 0 10%;
     font-family: sans-serif;
 }
-h1{
+
+h1 {
     text-align: center;
     font-family: serif;
     font-weight: normal;
@@ -12,51 +12,55 @@ h1{
     border-bottom: 1px solid #57b1dc;
     margin-top: 30px;
 }
+
 h2 {
     color: #d1633c;
     font-size: 1em;
 }
-.image-container{
+
+/* Image and logo styling */
+.image-container {
     max-width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
 }
-.logo{
+
+.logo {
     max-width: 100%;
     height: auto;  
 }
 
-.loc{
-
+.loc {
     border-bottom: 1px solid #57b1dc;
 }
 
-.centered-text{
-   text-align: center;
+.centered-text {
+    text-align: center;
 }
-.socials{
 
-    display:flex;
+/* Social icons styling */
+.socials {
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
-.socials > div{
-
+.socials > div {
     margin: 0 5px;
 }
 
-.socials svg{
-
+.socials svg {
     display: block;
     width: 60px;
     height: 40px;
 }
+
+/* Navigation bar styling */
 nav {
-    background-color: #333;
-    padding: 2px;
+    background-color: #faf2e4; /* Match the background color of the page */
+    padding: 10px 0;
 }
 
 nav ul {
@@ -71,24 +75,24 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #d1633c; /* Matching the color of h2 */
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-
+/* Hover effect */
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #e6d4c3; /* A slightly darker shade of the background */
 }
 
 /* Active link styling */
 nav ul li a.active {
-    background-color: #007BFF;
-    color: white;
+    background-color: #d68214; 
+    color: black;
 }
 
-/* Media query for responsive design */
+/* Responsive design */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
